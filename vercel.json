@@ -1,11 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "prisma generate && next build",
+  "buildCommand": "npm install && next build",
   "installCommand": "npm install",
-  "framework": "nextjs",
-  "functions": {
-    "app/api/upload/route.js": {
-      "maxDuration": 30
-    }
-  }
+  "framework": "nextjs"
 }
