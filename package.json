@@ -9,9 +9,18 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@prisma/client": "^5.7.1",
+    "@types/formidable": "^3.4.6",
+    "bcryptjs": "^3.0.3",
+    "formidable": "^3.5.4",
+    "lucide-react": "^0.555.0",
+    "mysql2": "^3.15.3",
     "next": "16.0.5",
+    "next-auth": "^4.24.13",
+    "prisma": "^5.7.1",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
